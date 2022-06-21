@@ -78,3 +78,15 @@ blockquote p {
 .left {
   grid-column: 6 / 12;
 }
+
+.skills_list-html {
+  height: 3.125rem;
+  width: 5.125rem;
+  padding-right: 0px;
+}
+
+.skills_list-js {
+  height: 3.125rem;
+  width: 3.125rem;
+  padding-left: --16px;
+}
