@@ -112,6 +112,7 @@ blockquote p {
 .left_logo-one {
   height: 3rem;
   width: 3rem;
+  padding-right: 0.75rem;
 }
 
 a:link {
@@ -123,10 +124,28 @@ a:visited {
   color: white;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
 }
 a:active {
   text-decoration: none;
   color: white;
+}
+
+.logo-containerone {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo-containertwo {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo-containerthree {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
