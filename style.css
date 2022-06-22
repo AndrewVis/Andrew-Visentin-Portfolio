@@ -80,13 +80,31 @@ blockquote p {
 }
 
 .skills_list-html {
-  height: 3.125rem;
-  width: 5.125rem;
-  padding-right: 0px;
+  height: 4.125rem;
+  width: 6.125rem;
+  padding: 0.5rem;
 }
 
 .skills_list-js {
   height: 3.125rem;
   width: 3.125rem;
-  padding-left: --16px;
+  padding: 0.5rem;
+}
+
+.skills_list-react {
+  height: 3.125rem;
+  width: 3.125rem;
+  padding: 0.5rem;
+}
+
+.skills_list-sql {
+  height: 6.125rem;
+  width: 5.125rem;
+  padding: 0.5rem;
+}
+
+.skills_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
