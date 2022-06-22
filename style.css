@@ -108,3 +108,25 @@ blockquote p {
   justify-content: center;
   align-items: center;
 }
+
+.left_logo-one {
+  height: 3rem;
+  width: 3rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
