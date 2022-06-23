@@ -98,15 +98,27 @@ blockquote p {
 }
 
 .skills_list-sql {
-  height: 6.125rem;
+  height: 4.125rem;
   width: 5.125rem;
-  padding: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 0.5rem;
+}
+
+.skills_list-knex {
+  height: 3.125rem;
+  width: 5.25rem;
+  padding-top: 0.5rem;
+  padding-left: 0rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .skills_list {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 .left_logo-one {
@@ -148,4 +160,28 @@ a:active {
   display: flex;
   align-items: center;
   padding: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item {
+  margin: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 0.0625rem solid white;
+  border-radius: 0.15rem;
+}
+
+.light {
+}
+
+.grid-title {
+  margin: 0;
+  text-align: center;
+  padding-top: 4rem;
 }
